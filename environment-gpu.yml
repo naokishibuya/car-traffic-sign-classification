@@ -1,0 +1,15 @@
+name: car-traffic-sign-classification
+channels:
+    - https://conda.anaconda.org/menpo
+dependencies:
+    - python==3.5
+    - numpy
+    - matplotlib
+    - pillow
+    - jupyter
+    - opencv3
+    - scikit-learn
+    - scipy
+    - pandas
+    - pip:
+        - tensorflow-gpu
